@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Starting the build process..."
+      - echo "Since this is a simple HTML app, there is nothing to compile."
+      - echo "Packaging the application for deployment!"
+
+artifacts:
+  files:
+    - '**/*'
+  name: my-app-artifact
